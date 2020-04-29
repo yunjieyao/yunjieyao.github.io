@@ -24,12 +24,12 @@ body {
 }
 
 h1 {
-    font-size: 55px;
-    line-height: 75px;
+    font-size: 60px;
+    line-height: 80px;
     font-weight: bold;
     color: #002949;
     max-width: 450px;
-    padding-top: 120px;
+    padding-top: 135px;
     position: left;
 }
 
@@ -100,6 +100,7 @@ h3 {
     display: inline;
     height: 45px;
     width: 100px;
+    font-weight: regular;
     float: left;
     margin-left: 2px;
 }
