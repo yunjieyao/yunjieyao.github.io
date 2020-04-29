@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+body {
+    margin: 0;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #FBF3E1;
+}
+
+h1 {
+    font-size: 45px;
+    line-height: 62px;
+    font-weight: bold;
+    color: #002949;
+    max-width: 450px;
+    padding-top: 90px;
+    position: left;
+}
+
+h1-v {
+    font-size: 45px;
+    line-height: 62px;
+    font-weight: bold;
+    color: #CA8851;
+    max-width: 530px;
+    padding-bottom: 15px;
+    position: left;
+}
+
+h2 {
+    font-size: 38px;
+    color: #FFFFFF;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+
+h2-v {
+    font-size: 38px;
+    color: #CA8851;
+}
+
+h3 {
+    font-size: 28px;
+    color: #CA8851;
+}
+
+#header {
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: auto;
+    padding-top: 20px;
+}
+
+#header .header {
+    min-height: 8vh;
+    margin-bottom: 15px;
+}
+
+
+#header .nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    max-width: 1300px;
+    padding: 0 10px;
+}
+
+
+.nav-list ul {
+    list-style: none;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+    width: 900px;
+    padding-left: 160px;
+}
+
+.nav-list li {
+    display: inline;
+    height: 45px;
+    width: 100px;
+    float: left;
+    margin-left: 2px;
+}
+
+#last-nav-item {
+    width: 250px;
+    padding-left: 25px;
+}
+
+
+.nav-list a {
+    font-size: 18px;
+    font-weight: 30px;
+    text-decoration: none;
+    color: #333333;
+    padding: 10px;
+    display: block;
+    padding: 3px;
+}
+
+
+
+
+
+
+.container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: left;
+    padding-left: 130px;
+}
+
+#hero {
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+#hero .cta {
+    display: inline-block;
+    padding: 10px 40px;
+    color: #FFFFFF;
+    background-color: #CA8851;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    border-radius: 10px;
+    text-transform: uppercase;
+    margin-top: 25px;
+    transition: .3s ease background-color;
+}
+
+#hero .cta:hover {
+    background-color: #A85F22;
+}
+
+#who {
+    background-color: #1B1D36;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.who-container {
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.who-container h2{
+    position: absolute;
+
+}
+
+#vizforwho {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 145px;
+    padding-bottom: 50px;
+}
+
+#edu {
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.edu-container {
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.edu-container h2{
+    position: absolute;
+    color: #1B1D36;
+}
+
+#vizforedu {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 125px;
+    padding-left: 40px;
+    padding-bottom: 50px;
+}
+
+
+
+@media (min-width: 1200px)
+.container {
+    max-width: 1140px;
+}
+
+
+@media (min-width: 768px)
+.container {
+    max-width: 720px;
+}
+
+@media (min-width: 576px)
+.container {
+    max-width: 540px;
+}
