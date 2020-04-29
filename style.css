@@ -24,8 +24,8 @@ body {
 }
 
 h1 {
-    font-size: 60px;
-    line-height: 80px;
+    font-size: 55px;
+    line-height: 75px;
     font-weight: bold;
     color: #002949;
     max-width: 450px;
@@ -34,8 +34,8 @@ h1 {
 }
 
 h1-v {
-    font-size: 45px;
-    line-height: 62px;
+    font-size: 55px;
+    line-height: 75px;
     font-weight: bold;
     color: #CA8851;
     max-width: 530px;
@@ -45,17 +45,18 @@ h1-v {
 
 h2 {
     font-size: 38px;
-    color: #FFFFFF;
+    color: #FBF3E2;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    padding-top: 200px;
+    padding-top: 225px;
     padding-bottom: 50px;
 }
 
 h2-v {
     font-size: 38px;
     color: #CA8851;
+    padding-top: 75px;
 }
 
 h3 {
@@ -107,7 +108,7 @@ h3 {
 
 #last-nav-item {
     width: 250px;
-    padding-left: 25px;
+    padding-left: 10px;
 }
 
 
@@ -139,7 +140,6 @@ h3 {
     background-size: cover;
     background-position: top;
     position: relative;
-    margin-bottom: 50px;
 }
 
 #hero .cta {
@@ -165,13 +165,12 @@ h3 {
     background-color: #1B1D36;
     justify-content: center;
     align-content: center;
-    margin-top: 50px;
-    margin-bottom: 100px;
+    margin-top: 100px;
 }
 
 .who-container {
     position: relative;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 .who-container h2{
@@ -189,14 +188,13 @@ h3 {
 
 #edu {
     justify-content: center;
+    padding-top: 25px;
     align-content: center;
-    margin-top: 50px;
     margin-bottom: 100px;
 }
 
 .edu-container {
     position: relative;
-    padding-bottom: 100px;
 }
 
 .edu-container h2{
