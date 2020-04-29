@@ -11,7 +11,6 @@ html{
 
 a{
     text-decoration: none;
-
 }
 
 body {
@@ -21,6 +20,15 @@ body {
     color: #212529;
     text-align: left;
     background-color: #FBF3E1;
+}
+
+p {
+    color: #333333;
+    font-size: 24px;
+    font-weight: 400px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
 }
 
 h1 {
@@ -46,6 +54,7 @@ h1-v {
 h2 {
     font-size: 38px;
     color: #FBF3E2;
+    font-weight: bold;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
@@ -56,12 +65,25 @@ h2 {
 h2-v {
     font-size: 38px;
     color: #CA8851;
-    padding-top: 75px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    padding-top: 35px;
 }
 
 h3 {
     font-size: 28px;
     color: #CA8851;
+}
+
+h4 {
+    font-size: 16px;
+    color: #333333;
+    font-weight: lighter;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
 }
 
 #header {
@@ -197,18 +219,24 @@ h3 {
     position: relative;
 }
 
-.edu-container h2{
-    position: absolute;
-    color: #1B1D36;
-}
 
 #vizforedu {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 125px;
     padding-left: 40px;
     padding-bottom: 50px;
+    margin-top: -55px;
+
+}
+
+#vizforincome {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-bottom: 50px;
+
 }
 
 
