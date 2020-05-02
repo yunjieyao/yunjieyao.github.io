@@ -63,7 +63,7 @@ h2 {
     margin-right: -50%;
     transform: translate(-50%, -50%);
     padding-top: 225px;
-    padding-bottom: 50px;
+    padding-bottom: 35px;
 }
 
 h2-v {
@@ -148,11 +148,6 @@ h4 {
     padding: 3px;
 }
 
-
-
-
-
-
 .container {
     min-height: 100vh;
     width: 100%;
@@ -196,21 +191,14 @@ h4 {
 
 .who-container {
     position: relative;
-    padding-bottom: 50px;
-}
+    display: block;
+    margin: 0px;
+} 
 
 .who-container h2{
     position: absolute;
-
 }
 
-#vizforwho {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 145px;
-    padding-bottom: 50px;
-}
 
 #edu {
     justify-content: center;
@@ -242,6 +230,102 @@ h4 {
     padding-bottom: 50px;
 
 }
+
+#outer-circle {
+   border: 1px;
+   background-color: #BDBDBD;
+   opacity: 15%;
+   border-radius: 50%;
+   height: 745px;
+   width: 745px;
+   position: relative;
+   top: 150px;
+   left: 25%;
+   z-index: 1;
+ }
+
+#eastasian{
+   position: relative;
+   top: -570px;
+   left: 40%;
+   z-index: 2;
+   padding-bottom: -500px;
+}
+
+
+#southasian{
+   position: relative;
+   top: -600px;
+   left: 30%;
+   z-index: 2;
+}
+
+#southeast{
+   position: relative;
+   top: -900px;
+   left: 55%;
+   z-index: 2;
+}
+
+
+
+.image:hover + h6 {
+    display:block;
+}
+
+
+.image:hover {
+    transform: scale(1.15);
+}
+
+
+
+h6{
+    font-size: 12px;
+    font-weight: lighter;
+    color: #ffffff;
+    display: none;
+    position: relative;
+    left: 5%;
+    padding-top: 20px;
+}
+
+#history {
+    background-color: #1B1D36;
+    justify-content: center;
+    align-content: center;
+    margin-top: 100px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.history-container {
+    position: relative;
+}
+
+
+.gallery {
+  background: #EEE;
+}
+
+.gallery-cell {
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  background: #8C8;
+  counter-increment: gallery-cell;
+}
+
+/* cell number */
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
 
 
 
